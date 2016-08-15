@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5205D161D44BA7500CA4881 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5205D151D44BA7500CA4881 /* AudioPlayer.m */; };
+		B5205D191D44C4C600CA4881 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5205D181D44C4C600CA4881 /* MainController.m */; };
+		B5205D1C1D44C9E400CA4881 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B5205D1B1D44C9E400CA4881 /* Location.m */; };
 		B5471FF81D422B2D00E3963D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5471FF71D422B2D00E3963D /* main.m */; };
 		B5471FFB1D422B2D00E3963D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5471FFA1D422B2D00E3963D /* AppDelegate.m */; };
 		B5471FFE1D422B2D00E3963D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5471FFD1D422B2D00E3963D /* ViewController.m */; };
-		B54720011D422B2E00E3963D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5471FFF1D422B2E00E3963D /* Main.storyboard */; };
 		B54720031D422B2E00E3963D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54720021D422B2E00E3963D /* Assets.xcassets */; };
 		B54720061D422B2E00E3963D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54720041D422B2E00E3963D /* LaunchScreen.storyboard */; };
 		B54720111D422B2E00E3963D /* LocationWatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54720101D422B2E00E3963D /* LocationWatcherTests.m */; };
 		B547201C1D422B2E00E3963D /* LocationWatcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B547201B1D422B2E00E3963D /* LocationWatcherUITests.m */; };
+		B556FB021D5F590F0010A66F /* locationAlarm.png in Resources */ = {isa = PBXBuildFile; fileRef = B556FB011D5F590F0010A66F /* locationAlarm.png */; };
+		B556FB061D5F8B8E0010A66F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B556FB051D5F8B8E0010A66F /* GoogleService-Info.plist */; };
+		B556FB0A1D5F95400010A66F /* google-sign-in.png in Resources */ = {isa = PBXBuildFile; fileRef = B556FB091D5F95400010A66F /* google-sign-in.png */; };
+		B577B3B01D4339D70089847E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577B3AF1D4339D70089847E /* MapKit.framework */; };
+		B579712B1D46463800AB8EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57971291D46463800AB8EB9 /* Main.storyboard */; };
+		B58E577D1D43E0BA005A4691 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58E577C1D43E0BA005A4691 /* AVFoundation.framework */; };
+		B58E577F1D43E0C1005A4691 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58E577E1D43E0C1005A4691 /* AVKit.framework */; };
+		B59FB1121D5CE0EF00176DF4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59FB10F1D5CE0EF00176DF4 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B59FB1131D5CE0EF00176DF4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59FB1101D5CE0EF00176DF4 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B59FB1141D5CE0EF00176DF4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59FB1111D5CE0EF00176DF4 /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B59FB1171D5CE18C00176DF4 /* LoginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59FB1161D5CE18C00176DF4 /* LoginScreenViewController.m */; };
+		B5A6A5021D4472F40084830C /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A5011D4472F40084830C /* LocationManager.m */; };
+		B5B9F6801D44F7AE00620936 /* CheckPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B9F67F1D44F7AE00620936 /* CheckPoint.m */; };
+		B5CA0FBF1D5B8EB900269123 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CA0FBE1D5B8EB800269123 /* facebook.png */; };
+		B5D6AAEF1D43E2E9001B862D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D6AAEE1D43E2E9001B862D /* MediaPlayer.framework */; };
+		B5D6AAF41D43F3BF001B862D /* fearless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5D6AAF31D43F3BF001B862D /* fearless.mp3 */; };
+		B5E2EDBA1D58F8CC00A0EFDB /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5E2EDB11D58F85800A0EFDB /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5EAA41F1D60DE0B00A853E0 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA41E1D60DE0B00A853E0 /* fb.png */; };
+		B5EAA4211D61938B00A853E0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4201D61938B00A853E0 /* home.png */; };
+		B5EAA4231D61E01400A853E0 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4221D61E01400A853E0 /* account.png */; };
+		B5EAA4251D61E28400A853E0 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4241D61E28400A853E0 /* about.jpg */; };
+		B5EAA4271D61E31C00A853E0 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4261D61E31C00A853E0 /* about.png */; };
+		B5EAA4291D61EA1E00A853E0 /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4281D61EA1E00A853E0 /* locate.png */; };
+		B5EE5FEE1D4736E200E1012E /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE5FED1D4736E200E1012E /* Storage.m */; };
+		DDE1C4003D22760BE395A29D /* Pods_LocationWatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338FB907F6D784E58D62E1BF /* Pods_LocationWatcher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +61,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B5E2EDBB1D58F8CC00A0EFDB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B5E2EDBA1D58F8CC00A0EFDB /* SVProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1F763D1CEAFA976D4B49D253 /* Pods-LocationWatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationWatcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationWatcher/Pods-LocationWatcher.release.xcconfig"; sourceTree = "<group>"; };
+		338FB907F6D784E58D62E1BF /* Pods_LocationWatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationWatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B97E56720625759F8E7D4CA /* Pods-LocationWatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationWatcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationWatcher/Pods-LocationWatcher.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C7F914130D82D58E203480 /* libPods-LocationWatcherUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationWatcherUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5205D141D44BA7500CA4881 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		B5205D151D44BA7500CA4881 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		B5205D171D44C4C600CA4881 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainController.h; path = ../MainController.h; sourceTree = "<group>"; };
+		B5205D181D44C4C600CA4881 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainController.m; path = ../MainController.m; sourceTree = "<group>"; };
+		B5205D1A1D44C9E400CA4881 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		B5205D1B1D44C9E400CA4881 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		B5471FF31D422B2D00E3963D /* LocationWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5471FF71D422B2D00E3963D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5471FF91D422B2D00E3963D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5471FFA1D422B2D00E3963D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B5471FFC1D422B2D00E3963D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B5471FFD1D422B2D00E3963D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B54720001D422B2E00E3963D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B54720021D422B2E00E3963D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54720051D422B2E00E3963D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B54720071D422B2E00E3963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +101,36 @@
 		B54720171D422B2E00E3963D /* LocationWatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationWatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B547201B1D422B2E00E3963D /* LocationWatcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationWatcherUITests.m; sourceTree = "<group>"; };
 		B547201D1D422B2E00E3963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B556FB011D5F590F0010A66F /* locationAlarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationAlarm.png; path = /Users/emm/Downloads/locationAlarm.png; sourceTree = "<absolute>"; };
+		B556FB051D5F8B8E0010A66F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/emm/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B556FB091D5F95400010A66F /* google-sign-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google-sign-in.png"; path = "/Users/emm/Downloads/google-sign-in.png"; sourceTree = "<absolute>"; };
+		B577B3AF1D4339D70089847E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B579712A1D46463800AB8EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5864FA11D4493B400F5647A /* LocationWatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LocationWatcher.entitlements; sourceTree = "<group>"; };
+		B58E577C1D43E0BA005A4691 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B58E577E1D43E0C1005A4691 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		B59FB10F1D5CE0EF00176DF4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Users/emm/Downloads/FacebookSDKs-iOS-4.13.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		B59FB1101D5CE0EF00176DF4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Users/emm/Downloads/FacebookSDKs-iOS-4.13.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		B59FB1111D5CE0EF00176DF4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Users/emm/Downloads/FacebookSDKs-iOS-4.13.1/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		B59FB1151D5CE18C00176DF4 /* LoginScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreenViewController.h; sourceTree = "<group>"; };
+		B59FB1161D5CE18C00176DF4 /* LoginScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreenViewController.m; sourceTree = "<group>"; };
+		B5A6A5011D4472F40084830C /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		B5A6A5031D4472FE0084830C /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		B5B9F67E1D44F7AE00620936 /* CheckPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckPoint.h; sourceTree = "<group>"; };
+		B5B9F67F1D44F7AE00620936 /* CheckPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckPoint.m; sourceTree = "<group>"; };
+		B5CA0FBE1D5B8EB800269123 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = /Users/emm/Desktop/facebook.png; sourceTree = "<absolute>"; };
+		B5D6AAEE1D43E2E9001B862D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B5D6AAF31D43F3BF001B862D /* fearless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fearless.mp3; sourceTree = "<group>"; };
+		B5E2EDB11D58F85800A0EFDB /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "../../../Users/emm/Library/Developer/Xcode/DerivedData/LocationWatcher-dzlgexkgldwinahabffwhalfpokn/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		B5EAA41E1D60DE0B00A853E0 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = /Users/emm/Downloads/fb.png; sourceTree = "<absolute>"; };
+		B5EAA4201D61938B00A853E0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = /Users/emm/Downloads/home.png; sourceTree = "<absolute>"; };
+		B5EAA4221D61E01400A853E0 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = account.png; path = /Users/emm/Downloads/account.png; sourceTree = "<absolute>"; };
+		B5EAA4241D61E28400A853E0 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = /Users/emm/Downloads/about.jpg; sourceTree = "<absolute>"; };
+		B5EAA4261D61E31C00A853E0 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = /Users/emm/Downloads/about.png; sourceTree = "<absolute>"; };
+		B5EAA4281D61EA1E00A853E0 /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locate.png; path = /Users/emm/Downloads/locate.png; sourceTree = "<absolute>"; };
+		B5EE5FEC1D4736E200E1012E /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		B5EE5FED1D4736E200E1012E /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		F4880BB75C380CB2DC30DFE7 /* libPods-LocationWatcherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationWatcherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +138,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59FB1121D5CE0EF00176DF4 /* FBSDKCoreKit.framework in Frameworks */,
+				B59FB1131D5CE0EF00176DF4 /* FBSDKLoginKit.framework in Frameworks */,
+				B59FB1141D5CE0EF00176DF4 /* FBSDKShareKit.framework in Frameworks */,
+				B5D6AAEF1D43E2E9001B862D /* MediaPlayer.framework in Frameworks */,
+				B58E577F1D43E0C1005A4691 /* AVKit.framework in Frameworks */,
+				B58E577D1D43E0BA005A4691 /* AVFoundation.framework in Frameworks */,
+				B577B3B01D4339D70089847E /* MapKit.framework in Frameworks */,
+				DDE1C4003D22760BE395A29D /* Pods_LocationWatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +173,8 @@
 				B547200F1D422B2E00E3963D /* LocationWatcherTests */,
 				B547201A1D422B2E00E3963D /* LocationWatcherUITests */,
 				B5471FF41D422B2D00E3963D /* Products */,
+				B577B3AE1D4339D70089847E /* Frameworks */,
+				C75F8439D9C0409E2E23F926 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +191,31 @@
 		B5471FF51D422B2D00E3963D /* LocationWatcher */ = {
 			isa = PBXGroup;
 			children = (
+				B5864FA11D4493B400F5647A /* LocationWatcher.entitlements */,
 				B5471FF91D422B2D00E3963D /* AppDelegate.h */,
 				B5471FFA1D422B2D00E3963D /* AppDelegate.m */,
+				B59FB1151D5CE18C00176DF4 /* LoginScreenViewController.h */,
+				B59FB1161D5CE18C00176DF4 /* LoginScreenViewController.m */,
 				B5471FFC1D422B2D00E3963D /* ViewController.h */,
 				B5471FFD1D422B2D00E3963D /* ViewController.m */,
-				B5471FFF1D422B2E00E3963D /* Main.storyboard */,
+				B5B9F67E1D44F7AE00620936 /* CheckPoint.h */,
+				B5B9F67F1D44F7AE00620936 /* CheckPoint.m */,
+				B556FB051D5F8B8E0010A66F /* GoogleService-Info.plist */,
+				B57971291D46463800AB8EB9 /* Main.storyboard */,
 				B54720021D422B2E00E3963D /* Assets.xcassets */,
 				B54720041D422B2E00E3963D /* LaunchScreen.storyboard */,
 				B54720071D422B2E00E3963D /* Info.plist */,
 				B5471FF61D422B2D00E3963D /* Supporting Files */,
+				B5205D171D44C4C600CA4881 /* MainController.h */,
+				B5205D181D44C4C600CA4881 /* MainController.m */,
+				B5205D141D44BA7500CA4881 /* AudioPlayer.h */,
+				B5205D151D44BA7500CA4881 /* AudioPlayer.m */,
+				B5A6A5031D4472FE0084830C /* LocationManager.h */,
+				B5A6A5011D4472F40084830C /* LocationManager.m */,
+				B5205D1A1D44C9E400CA4881 /* Location.h */,
+				B5205D1B1D44C9E400CA4881 /* Location.m */,
+				B5EE5FEC1D4736E200E1012E /* Storage.h */,
+				B5EE5FED1D4736E200E1012E /* Storage.m */,
 			);
 			path = LocationWatcher;
 			sourceTree = "<group>";
@@ -117,6 +223,16 @@
 		B5471FF61D422B2D00E3963D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5D6AAF31D43F3BF001B862D /* fearless.mp3 */,
+				B5CA0FBE1D5B8EB800269123 /* facebook.png */,
+				B5EAA4261D61E31C00A853E0 /* about.png */,
+				B5EAA4281D61EA1E00A853E0 /* locate.png */,
+				B556FB091D5F95400010A66F /* google-sign-in.png */,
+				B5EAA41E1D60DE0B00A853E0 /* fb.png */,
+				B5EAA4201D61938B00A853E0 /* home.png */,
+				B556FB011D5F590F0010A66F /* locationAlarm.png */,
+				B5EAA4241D61E28400A853E0 /* about.jpg */,
+				B5EAA4221D61E01400A853E0 /* account.png */,
 				B5471FF71D422B2D00E3963D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +256,33 @@
 			path = LocationWatcherUITests;
 			sourceTree = "<group>";
 		};
+		B577B3AE1D4339D70089847E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B59FB10F1D5CE0EF00176DF4 /* FBSDKCoreKit.framework */,
+				B59FB1101D5CE0EF00176DF4 /* FBSDKLoginKit.framework */,
+				B59FB1111D5CE0EF00176DF4 /* FBSDKShareKit.framework */,
+				B5E2EDB11D58F85800A0EFDB /* SVProgressHUD.framework */,
+				B5D6AAEE1D43E2E9001B862D /* MediaPlayer.framework */,
+				B58E577E1D43E0C1005A4691 /* AVKit.framework */,
+				B58E577C1D43E0BA005A4691 /* AVFoundation.framework */,
+				B577B3AF1D4339D70089847E /* MapKit.framework */,
+				F4880BB75C380CB2DC30DFE7 /* libPods-LocationWatcherTests.a */,
+				A4C7F914130D82D58E203480 /* libPods-LocationWatcherUITests.a */,
+				338FB907F6D784E58D62E1BF /* Pods_LocationWatcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C75F8439D9C0409E2E23F926 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B97E56720625759F8E7D4CA /* Pods-LocationWatcher.debug.xcconfig */,
+				1F763D1CEAFA976D4B49D253 /* Pods-LocationWatcher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +290,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54720201D422B2E00E3963D /* Build configuration list for PBXNativeTarget "LocationWatcher" */;
 			buildPhases = (
+				42C6A27B091C7EF08AF407A7 /* [CP] Check Pods Manifest.lock */,
 				B5471FEF1D422B2D00E3963D /* Sources */,
 				B5471FF01D422B2D00E3963D /* Frameworks */,
 				B5471FF11D422B2D00E3963D /* Resources */,
+				007A34A914E72BCA0FD3A982 /* [CP] Embed Pods Frameworks */,
+				D58AAA96DC518D8E68935A87 /* [CP] Copy Pods Resources */,
+				B5E2EDBB1D58F8CC00A0EFDB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54720231D422B2E00E3963D /* Build configuration list for PBXNativeTarget "LocationWatcherTests" */;
 			buildPhases = (
+				45BDC4CEC07DF35F57B93AC4 /* [CP] Check Pods Manifest.lock */,
 				B54720081D422B2E00E3963D /* Sources */,
 				B54720091D422B2E00E3963D /* Frameworks */,
 				B547200A1D422B2E00E3963D /* Resources */,
+				91322BCCA8F37F6883C52C11 /* [CP] Embed Pods Frameworks */,
+				69D0BCE8552D9502182827A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54720261D422B2E00E3963D /* Build configuration list for PBXNativeTarget "LocationWatcherUITests" */;
 			buildPhases = (
+				12B7B895D2A9D5D827235EE2 /* [CP] Check Pods Manifest.lock */,
 				B54720131D422B2E00E3963D /* Sources */,
 				B54720141D422B2E00E3963D /* Frameworks */,
 				B54720151D422B2E00E3963D /* Resources */,
+				39884448276C05E9A20BAE4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,7 +361,18 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = PM7352S8QE;
 						DevelopmentTeamName = "Kony Solutions, Inc.";
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
 					};
 					B547200B1D422B2E00E3963D = {
 						CreatedOnToolsVersion = 8.0;
@@ -252,9 +415,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B556FB0A1D5F95400010A66F /* google-sign-in.png in Resources */,
+				B5EAA4231D61E01400A853E0 /* account.png in Resources */,
+				B5CA0FBF1D5B8EB900269123 /* facebook.png in Resources */,
+				B579712B1D46463800AB8EB9 /* Main.storyboard in Resources */,
 				B54720061D422B2E00E3963D /* LaunchScreen.storyboard in Resources */,
 				B54720031D422B2E00E3963D /* Assets.xcassets in Resources */,
-				B54720011D422B2E00E3963D /* Main.storyboard in Resources */,
+				B5EAA41F1D60DE0B00A853E0 /* fb.png in Resources */,
+				B5EAA4211D61938B00A853E0 /* home.png in Resources */,
+				B556FB061D5F8B8E0010A66F /* GoogleService-Info.plist in Resources */,
+				B5EAA4291D61EA1E00A853E0 /* locate.png in Resources */,
+				B556FB021D5F590F0010A66F /* locationAlarm.png in Resources */,
+				B5EAA4271D61E31C00A853E0 /* about.png in Resources */,
+				B5D6AAF41D43F3BF001B862D /* fearless.mp3 in Resources */,
+				B5EAA4251D61E28400A853E0 /* about.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,14 +448,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		007A34A914E72BCA0FD3A982 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationWatcher/Pods-LocationWatcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12B7B895D2A9D5D827235EE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39884448276C05E9A20BAE4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationWatcherUITests/Pods-LocationWatcherUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42C6A27B091C7EF08AF407A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45BDC4CEC07DF35F57B93AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69D0BCE8552D9502182827A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationWatcherTests/Pods-LocationWatcherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91322BCCA8F37F6883C52C11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationWatcherTests/Pods-LocationWatcherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58AAA96DC518D8E68935A87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationWatcher/Pods-LocationWatcher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5471FEF1D422B2D00E3963D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A6A5021D4472F40084830C /* LocationManager.m in Sources */,
+				B5205D1C1D44C9E400CA4881 /* Location.m in Sources */,
 				B5471FFE1D422B2D00E3963D /* ViewController.m in Sources */,
+				B5205D161D44BA7500CA4881 /* AudioPlayer.m in Sources */,
+				B59FB1171D5CE18C00176DF4 /* LoginScreenViewController.m in Sources */,
 				B5471FFB1D422B2D00E3963D /* AppDelegate.m in Sources */,
+				B5205D191D44C4C600CA4881 /* MainController.m in Sources */,
 				B5471FF81D422B2D00E3963D /* main.m in Sources */,
+				B5B9F6801D44F7AE00620936 /* CheckPoint.m in Sources */,
+				B5EE5FEE1D4736E200E1012E /* Storage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,20 +621,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5471FFF1D422B2E00E3963D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B54720001D422B2E00E3963D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B54720041D422B2E00E3963D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B54720051D422B2E00E3963D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B57971291D46463800AB8EB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B579712A1D46463800AB8EB9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,7 +659,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Madhu Avinash (E4N4U7QVU2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Madhu Avinash (E4N4U7QVU2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -376,7 +681,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,7 +708,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Madhu Avinash (E4N4U7QVU2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Madhu Avinash (E4N4U7QVU2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -416,6 +724,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -424,23 +735,59 @@
 		};
 		B54720211D422B2E00E3963D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B97E56720625759F8E7D4CA /* Pods-LocationWatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LocationWatcher/LocationWatcher.entitlements;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/./**",
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/Pods",
+				);
 				INFOPLIST_FILE = LocationWatcher/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SVProgressHUD\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kone.containerapp.LocationWatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "46e4f62c-09cf-4a56-8a5a-808f4c36c029";
+				PROVISIONING_PROFILE_SPECIFIER = PM7352S8QE/EMMDEVProf;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B54720221D422B2E00E3963D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F763D1CEAFA976D4B49D253 /* Pods-LocationWatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LocationWatcher/LocationWatcher.entitlements;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/./**",
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/Pods",
+				);
 				INFOPLIST_FILE = LocationWatcher/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SVProgressHUD\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kone.containerapp.LocationWatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "46e4f62c-09cf-4a56-8a5a-808f4c36c029";
+				PROVISIONING_PROFILE_SPECIFIER = PM7352S8QE/EMMDEVProf;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -509,6 +856,7 @@
 				B54720221D422B2E00E3963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B54720231D422B2E00E3963D /* Build configuration list for PBXNativeTarget "LocationWatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +865,7 @@
 				B54720251D422B2E00E3963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B54720261D422B2E00E3963D /* Build configuration list for PBXNativeTarget "LocationWatcherUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +874,7 @@
 				B54720281D422B2E00E3963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
