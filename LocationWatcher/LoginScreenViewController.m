@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [_segueButton setHidden:YES];
+    //[_segueButton setHiden:YES];
     [_loginFacebook setHidden:YES];
     [GIDSignIn sharedInstance].uiDelegate = self;
     [GIDSignIn sharedInstance].delegate = self;
@@ -90,9 +90,9 @@ dismissViewController:(UIViewController *)viewController {
 didSignInForUser:(GIDGoogleUser *)user
      withError:(NSError *)error {
     // Perform any operations on signed in user here.
-    if([GIDSignIn sharedInstance].hasAuthInKeychain)
+    if([GIDSignIn sharedInstance].hasAuthInKeychain){
     [SVProgressHUD showWithStatus:@"Fetching User Details"];
-
+    }
     NSString *userId = user.userID;                  // For client-side use only!
     NSString *idToken = user.authentication.idToken; // Safe to send to the server
     NSString *fullName = user.profile.name;

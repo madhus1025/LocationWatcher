@@ -129,7 +129,7 @@ didDisconnectWithUser:(GIDGoogleUser *)user
     {
         if([GIDSignIn sharedInstance].hasAuthInKeychain)
             [SVProgressHUD showWithStatus:@"Fetching User Details"];
-
+            NSLog(@"");
         
         return [[GIDSignIn sharedInstance]handleURL:url
                       sourceApplication:sourceApplication

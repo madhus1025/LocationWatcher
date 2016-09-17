@@ -6,4 +6,6 @@ target 'LocationWatcher' do
   pod 'SVProgressHUD'
 pod 'Google/SignIn'
 
+#pod 'KCFloatingActionButton'
+
 end

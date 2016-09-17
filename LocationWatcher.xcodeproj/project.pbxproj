@@ -17,8 +17,6 @@
 		B54720061D422B2E00E3963D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54720041D422B2E00E3963D /* LaunchScreen.storyboard */; };
 		B54720111D422B2E00E3963D /* LocationWatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54720101D422B2E00E3963D /* LocationWatcherTests.m */; };
 		B547201C1D422B2E00E3963D /* LocationWatcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B547201B1D422B2E00E3963D /* LocationWatcherUITests.m */; };
-		B556FB021D5F590F0010A66F /* locationAlarm.png in Resources */ = {isa = PBXBuildFile; fileRef = B556FB011D5F590F0010A66F /* locationAlarm.png */; };
-		B556FB061D5F8B8E0010A66F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B556FB051D5F8B8E0010A66F /* GoogleService-Info.plist */; };
 		B556FB0A1D5F95400010A66F /* google-sign-in.png in Resources */ = {isa = PBXBuildFile; fileRef = B556FB091D5F95400010A66F /* google-sign-in.png */; };
 		B577B3B01D4339D70089847E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577B3AF1D4339D70089847E /* MapKit.framework */; };
 		B579712B1D46463800AB8EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57971291D46463800AB8EB9 /* Main.storyboard */; };
@@ -30,18 +28,19 @@
 		B59FB1171D5CE18C00176DF4 /* LoginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59FB1161D5CE18C00176DF4 /* LoginScreenViewController.m */; };
 		B5A6A5021D4472F40084830C /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A5011D4472F40084830C /* LocationManager.m */; };
 		B5B9F6801D44F7AE00620936 /* CheckPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B9F67F1D44F7AE00620936 /* CheckPoint.m */; };
-		B5CA0FBF1D5B8EB900269123 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CA0FBE1D5B8EB800269123 /* facebook.png */; };
 		B5D6AAEF1D43E2E9001B862D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D6AAEE1D43E2E9001B862D /* MediaPlayer.framework */; };
 		B5D6AAF41D43F3BF001B862D /* fearless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5D6AAF31D43F3BF001B862D /* fearless.mp3 */; };
-		B5E2EDBA1D58F8CC00A0EFDB /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5E2EDB11D58F85800A0EFDB /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5DD35CA1D8D6A1A00B5A396 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5DD35C91D8D6A1A00B5A396 /* GoogleService-Info.plist */; };
+		B5DD35CD1D8D6D5000B5A396 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DD35CC1D8D6D5000B5A396 /* SVProgressHUD.framework */; };
+		B5DD35CE1D8D6D5000B5A396 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5DD35CC1D8D6D5000B5A396 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5DD35D41D8D745A00B5A396 /* LocateMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DD35D31D8D745A00B5A396 /* LocateMe.m */; };
 		B5EAA41F1D60DE0B00A853E0 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA41E1D60DE0B00A853E0 /* fb.png */; };
 		B5EAA4211D61938B00A853E0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4201D61938B00A853E0 /* home.png */; };
 		B5EAA4231D61E01400A853E0 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4221D61E01400A853E0 /* account.png */; };
 		B5EAA4251D61E28400A853E0 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4241D61E28400A853E0 /* about.jpg */; };
 		B5EAA4271D61E31C00A853E0 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4261D61E31C00A853E0 /* about.png */; };
-		B5EAA4291D61EA1E00A853E0 /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EAA4281D61EA1E00A853E0 /* locate.png */; };
 		B5EE5FEE1D4736E200E1012E /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE5FED1D4736E200E1012E /* Storage.m */; };
-		DDE1C4003D22760BE395A29D /* Pods_LocationWatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338FB907F6D784E58D62E1BF /* Pods_LocationWatcher.framework */; };
+		DDE1C4003D22760BE395A29D /* Pods_LocationWatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338FB907F6D784E58D62E1BF /* Pods_LocationWatcher.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,14 +63,14 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		B5E2EDBB1D58F8CC00A0EFDB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B5E2EDBA1D58F8CC00A0EFDB /* SVProgressHUD.framework in Embed Frameworks */,
+				B5DD35CE1D8D6D5000B5A396 /* SVProgressHUD.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -101,8 +100,6 @@
 		B54720171D422B2E00E3963D /* LocationWatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationWatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B547201B1D422B2E00E3963D /* LocationWatcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationWatcherUITests.m; sourceTree = "<group>"; };
 		B547201D1D422B2E00E3963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B556FB011D5F590F0010A66F /* locationAlarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationAlarm.png; path = /Users/emm/Downloads/locationAlarm.png; sourceTree = "<absolute>"; };
-		B556FB051D5F8B8E0010A66F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/emm/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B556FB091D5F95400010A66F /* google-sign-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google-sign-in.png"; path = "/Users/emm/Downloads/google-sign-in.png"; sourceTree = "<absolute>"; };
 		B577B3AF1D4339D70089847E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B579712A1D46463800AB8EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,16 +115,18 @@
 		B5A6A5031D4472FE0084830C /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		B5B9F67E1D44F7AE00620936 /* CheckPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckPoint.h; sourceTree = "<group>"; };
 		B5B9F67F1D44F7AE00620936 /* CheckPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckPoint.m; sourceTree = "<group>"; };
-		B5CA0FBE1D5B8EB800269123 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = /Users/emm/Desktop/facebook.png; sourceTree = "<absolute>"; };
 		B5D6AAEE1D43E2E9001B862D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		B5D6AAF31D43F3BF001B862D /* fearless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fearless.mp3; sourceTree = "<group>"; };
+		B5DD35C91D8D6A1A00B5A396 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5DD35CC1D8D6D5000B5A396 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DD35D21D8D745A00B5A396 /* LocateMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocateMe.h; sourceTree = "<group>"; };
+		B5DD35D31D8D745A00B5A396 /* LocateMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocateMe.m; sourceTree = "<group>"; };
 		B5E2EDB11D58F85800A0EFDB /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "../../../Users/emm/Library/Developer/Xcode/DerivedData/LocationWatcher-dzlgexkgldwinahabffwhalfpokn/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
 		B5EAA41E1D60DE0B00A853E0 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = /Users/emm/Downloads/fb.png; sourceTree = "<absolute>"; };
 		B5EAA4201D61938B00A853E0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = /Users/emm/Downloads/home.png; sourceTree = "<absolute>"; };
 		B5EAA4221D61E01400A853E0 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = account.png; path = /Users/emm/Downloads/account.png; sourceTree = "<absolute>"; };
 		B5EAA4241D61E28400A853E0 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = /Users/emm/Downloads/about.jpg; sourceTree = "<absolute>"; };
 		B5EAA4261D61E31C00A853E0 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = /Users/emm/Downloads/about.png; sourceTree = "<absolute>"; };
-		B5EAA4281D61EA1E00A853E0 /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locate.png; path = /Users/emm/Downloads/locate.png; sourceTree = "<absolute>"; };
 		B5EE5FEC1D4736E200E1012E /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
 		B5EE5FED1D4736E200E1012E /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
 		F4880BB75C380CB2DC30DFE7 /* libPods-LocationWatcherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationWatcherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +143,7 @@
 				B5D6AAEF1D43E2E9001B862D /* MediaPlayer.framework in Frameworks */,
 				B58E577F1D43E0C1005A4691 /* AVKit.framework in Frameworks */,
 				B58E577D1D43E0BA005A4691 /* AVFoundation.framework in Frameworks */,
+				B5DD35CD1D8D6D5000B5A396 /* SVProgressHUD.framework in Frameworks */,
 				B577B3B01D4339D70089847E /* MapKit.framework in Frameworks */,
 				DDE1C4003D22760BE395A29D /* Pods_LocationWatcher.framework in Frameworks */,
 			);
@@ -169,6 +169,7 @@
 		B5471FEA1D422B2D00E3963D = {
 			isa = PBXGroup;
 			children = (
+				B5DD35CC1D8D6D5000B5A396 /* SVProgressHUD.framework */,
 				B5471FF51D422B2D00E3963D /* LocationWatcher */,
 				B547200F1D422B2E00E3963D /* LocationWatcherTests */,
 				B547201A1D422B2E00E3963D /* LocationWatcherUITests */,
@@ -199,8 +200,8 @@
 				B5471FFC1D422B2D00E3963D /* ViewController.h */,
 				B5471FFD1D422B2D00E3963D /* ViewController.m */,
 				B5B9F67E1D44F7AE00620936 /* CheckPoint.h */,
+				B5DD35C91D8D6A1A00B5A396 /* GoogleService-Info.plist */,
 				B5B9F67F1D44F7AE00620936 /* CheckPoint.m */,
-				B556FB051D5F8B8E0010A66F /* GoogleService-Info.plist */,
 				B57971291D46463800AB8EB9 /* Main.storyboard */,
 				B54720021D422B2E00E3963D /* Assets.xcassets */,
 				B54720041D422B2E00E3963D /* LaunchScreen.storyboard */,
@@ -216,6 +217,8 @@
 				B5205D1B1D44C9E400CA4881 /* Location.m */,
 				B5EE5FEC1D4736E200E1012E /* Storage.h */,
 				B5EE5FED1D4736E200E1012E /* Storage.m */,
+				B5DD35D21D8D745A00B5A396 /* LocateMe.h */,
+				B5DD35D31D8D745A00B5A396 /* LocateMe.m */,
 			);
 			path = LocationWatcher;
 			sourceTree = "<group>";
@@ -224,13 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				B5D6AAF31D43F3BF001B862D /* fearless.mp3 */,
-				B5CA0FBE1D5B8EB800269123 /* facebook.png */,
 				B5EAA4261D61E31C00A853E0 /* about.png */,
-				B5EAA4281D61EA1E00A853E0 /* locate.png */,
 				B556FB091D5F95400010A66F /* google-sign-in.png */,
 				B5EAA41E1D60DE0B00A853E0 /* fb.png */,
 				B5EAA4201D61938B00A853E0 /* home.png */,
-				B556FB011D5F590F0010A66F /* locationAlarm.png */,
 				B5EAA4241D61E28400A853E0 /* about.jpg */,
 				B5EAA4221D61E01400A853E0 /* account.png */,
 				B5471FF71D422B2D00E3963D /* main.m */,
@@ -361,7 +361,8 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = PM7352S8QE;
 						DevelopmentTeamName = "Kony Solutions, Inc.";
-						ProvisioningStyle = Manual;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -417,18 +418,15 @@
 			files = (
 				B556FB0A1D5F95400010A66F /* google-sign-in.png in Resources */,
 				B5EAA4231D61E01400A853E0 /* account.png in Resources */,
-				B5CA0FBF1D5B8EB900269123 /* facebook.png in Resources */,
 				B579712B1D46463800AB8EB9 /* Main.storyboard in Resources */,
 				B54720061D422B2E00E3963D /* LaunchScreen.storyboard in Resources */,
 				B54720031D422B2E00E3963D /* Assets.xcassets in Resources */,
 				B5EAA41F1D60DE0B00A853E0 /* fb.png in Resources */,
 				B5EAA4211D61938B00A853E0 /* home.png in Resources */,
-				B556FB061D5F8B8E0010A66F /* GoogleService-Info.plist in Resources */,
-				B5EAA4291D61EA1E00A853E0 /* locate.png in Resources */,
-				B556FB021D5F590F0010A66F /* locationAlarm.png in Resources */,
 				B5EAA4271D61E31C00A853E0 /* about.png in Resources */,
 				B5D6AAF41D43F3BF001B862D /* fearless.mp3 in Resources */,
 				B5EAA4251D61E28400A853E0 /* about.jpg in Resources */,
+				B5DD35CA1D8D6A1A00B5A396 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,15 +449,16 @@
 /* Begin PBXShellScriptBuildPhase section */
 		007A34A914E72BCA0FD3A982 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
+				"",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationWatcher/Pods-LocationWatcher-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -580,6 +579,7 @@
 				B5205D1C1D44C9E400CA4881 /* Location.m in Sources */,
 				B5471FFE1D422B2D00E3963D /* ViewController.m in Sources */,
 				B5205D161D44BA7500CA4881 /* AudioPlayer.m in Sources */,
+				B5DD35D41D8D745A00B5A396 /* LocateMe.m in Sources */,
 				B59FB1171D5CE18C00176DF4 /* LoginScreenViewController.m in Sources */,
 				B5471FFB1D422B2D00E3963D /* AppDelegate.m in Sources */,
 				B5205D191D44C4C600CA4881 /* MainController.m in Sources */,
@@ -739,6 +739,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LocationWatcher/LocationWatcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"/./**",
@@ -746,7 +748,7 @@
 					"$(PROJECT_DIR)/Pods",
 				);
 				INFOPLIST_FILE = LocationWatcher/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -756,8 +758,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kone.containerapp.LocationWatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "46e4f62c-09cf-4a56-8a5a-808f4c36c029";
-				PROVISIONING_PROFILE_SPECIFIER = PM7352S8QE/EMMDEVProf;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -768,6 +771,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LocationWatcher/LocationWatcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"/./**",
@@ -775,7 +780,7 @@
 					"$(PROJECT_DIR)/Pods",
 				);
 				INFOPLIST_FILE = LocationWatcher/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -785,8 +790,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kone.containerapp.LocationWatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "46e4f62c-09cf-4a56-8a5a-808f4c36c029";
-				PROVISIONING_PROFILE_SPECIFIER = PM7352S8QE/EMMDEVProf;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

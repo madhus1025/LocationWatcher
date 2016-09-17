@@ -12,7 +12,7 @@
 #import "MainController.h"
 #import "Location.h"
 #import "SVProgressHUD.h"
-
+#import "LocateMe.h"
 
 @import UserNotifications;
 
@@ -30,6 +30,8 @@
 @implementation ViewController
 
 - (IBAction)enableFlag:(id)sender {
+
+    
     
     CGPoint buttonPosition = [sender convertPoint:CGPointZero toView:self.tableView];
 
@@ -62,9 +64,23 @@
     {
         NSLog(@"gotcha");
     }
-    else
+    else if(item.tag ==2)
     {
-        NSLog(@"Pitcha");
+        
+        
+        
+        LocateMe *controler = [[LocateMe alloc] init];
+        
+        [self.navigationController pushViewController:controler animated:YES];
+        NSLog(@"Locate Me");
+    }
+    else if(item.tag == 3){
+        
+        NSLog(@"Account");
+    }
+    else if(item.tag == 4){
+        
+        NSLog(@"About Us");
     }
 }
 

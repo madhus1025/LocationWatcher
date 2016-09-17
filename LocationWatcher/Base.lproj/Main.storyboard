@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11191" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11156"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController restorationIdentifier="mainScreen" storyboardIdentifier="mainScreen" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="mainScreen" storyboardIdentifier="mainScreen" title="Home" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="grouped" rowHeight="59" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="LM2-kH-iO0">
@@ -24,10 +24,10 @@
                                 <color key="separatorColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="checkpoint" rowHeight="59" id="TAY-gZ-hqo">
-                                        <rect key="frame" x="0.0" y="56" width="288" height="59"/>
+                                        <rect key="frame" x="0.0" y="56" width="343" height="59"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TAY-gZ-hqo" id="TNw-cR-26l">
-                                            <frame key="frameInset" width="288" height="58"/>
+                                            <frame key="frameInset" width="343" height="58"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -56,7 +56,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="LrA-hI-y7S">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FjL-mg-N7f">
-                                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                                <rect key="frame" x="288" y="7" width="71" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                 <state key="normal" title="+">
@@ -78,7 +78,7 @@
                                     <navigationItem title="Location Watcher" id="f2Y-zO-yzH">
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="6u8-QC-xQG">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AoT-TH-dRx">
-                                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                                <rect key="frame" x="288" y="7" width="71" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                 <state key="normal" title="+">
@@ -92,9 +92,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaR-sf-d7T">
-                                <frame key="frameInset" height="49" maxY="3"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TaR-sf-d7T">
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
                                     <tabBarItem title="Home" id="RUB-w3-gRO">
@@ -109,7 +107,10 @@
                         <constraints>
                             <constraint firstItem="LM2-kH-iO0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3vP-t2-7sw"/>
                             <constraint firstItem="pIm-0F-J5S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4l2-O5-M4m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TaR-sf-d7T" secondAttribute="trailing" constant="-16" id="6kK-4T-Oig"/>
                             <constraint firstItem="pIm-0F-J5S" firstAttribute="centerX" secondItem="LM2-kH-iO0" secondAttribute="centerX" id="8Bt-97-DsS"/>
+                            <constraint firstItem="TaR-sf-d7T" firstAttribute="leading" secondItem="OIV-3d-yQ8" secondAttribute="leading" id="BSE-u4-am0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TaR-sf-d7T" secondAttribute="bottom" constant="3" id="Fzz-MI-x0m"/>
                             <constraint firstItem="LM2-kH-iO0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Y9m-bv-lsP"/>
                             <constraint firstItem="pIm-0F-J5S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="a2g-NK-6CJ"/>
                             <constraint firstItem="LM2-kH-iO0" firstAttribute="top" secondItem="OIV-3d-yQ8" secondAttribute="bottom" constant="12" id="dpb-QY-64g"/>
@@ -127,7 +128,101 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-130.40000000000001" y="184.85757121439281"/>
+            <point key="canvasLocation" x="-145" y="194"/>
+        </scene>
+        <!--LocateMe-->
+        <scene sceneID="Gfg-ml-ISt">
+            <objects>
+                <viewController restorationIdentifier="locateme" storyboardIdentifier="locateme" title="LocateMe" id="8Ru-sy-lw9" customClass="LocateMe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ARM-JY-D6S"/>
+                        <viewControllerLayoutGuide type="bottom" id="7jR-ox-w2n"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="9Ph-Yh-jSS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="68g-aO-GjV">
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Location Watcher" id="taZ-ze-TMN">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="GZa-WJ-2XD">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4dW-BR-5Rc">
+                                                <rect key="frame" x="16" y="7" width="71" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="U5k-Ju-TQ4">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oHx-Ys-qGt">
+                                                <rect key="frame" x="288" y="7" width="71" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="16D-8a-Mz1">
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Location Watcher" id="WSM-op-Nqj"/>
+                                </items>
+                            </navigationBar>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y19-bg-m8D">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="Home" id="uiS-0X-sob">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem systemItem="more" id="qGV-sS-Mfx"/>
+                                </items>
+                            </tabBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TY1-Rn-GAL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Nqx-HK-13J"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="68g-aO-GjV" firstAttribute="trailing" secondItem="Y19-bg-m8D" secondAttribute="trailing" id="1Ib-Gd-WAV"/>
+                            <constraint firstItem="7jR-ox-w2n" firstAttribute="top" secondItem="Y19-bg-m8D" secondAttribute="bottom" constant="3" id="7cL-Vz-9uW"/>
+                            <constraint firstItem="TY1-Rn-GAL" firstAttribute="top" secondItem="16D-8a-Mz1" secondAttribute="bottom" id="7lB-8s-OLm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y19-bg-m8D" secondAttribute="trailing" constant="-16" id="E1y-0q-kDP"/>
+                            <constraint firstItem="16D-8a-Mz1" firstAttribute="top" secondItem="9Ph-Yh-jSS" secondAttribute="topMargin" constant="10" id="XcB-Na-Rn3"/>
+                            <constraint firstItem="68g-aO-GjV" firstAttribute="leading" secondItem="16D-8a-Mz1" secondAttribute="leading" id="Y8d-vr-Jli"/>
+                            <constraint firstItem="68g-aO-GjV" firstAttribute="top" secondItem="9Ph-Yh-jSS" secondAttribute="top" id="YfF-3p-JRg"/>
+                            <constraint firstItem="68g-aO-GjV" firstAttribute="trailing" secondItem="16D-8a-Mz1" secondAttribute="trailing" id="cGx-iX-udD"/>
+                            <constraint firstItem="TY1-Rn-GAL" firstAttribute="bottom" secondItem="Y19-bg-m8D" secondAttribute="top" id="kcb-sZ-gCZ"/>
+                            <constraint firstItem="TY1-Rn-GAL" firstAttribute="leading" secondItem="16D-8a-Mz1" secondAttribute="leading" id="mKW-hz-0iB"/>
+                            <constraint firstItem="68g-aO-GjV" firstAttribute="leading" secondItem="9Ph-Yh-jSS" secondAttribute="leading" id="t6I-P1-1ch"/>
+                            <constraint firstItem="Y19-bg-m8D" firstAttribute="leading" secondItem="16D-8a-Mz1" secondAttribute="leading" id="vYW-Yk-acc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tabularBar" destination="Y19-bg-m8D" id="jAj-nR-gjj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1SW-cy-hXH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="195"/>
         </scene>
         <!--Check Point-->
         <scene sceneID="XE2-9b-g5B">
@@ -138,7 +233,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jbu-dM-2Ef"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="D5s-8n-pgo">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FoK-XY-3IN"/>
@@ -250,30 +345,6 @@
             </objects>
             <point key="canvasLocation" x="597.10144927536237" y="194.83695652173915"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="eFw-rR-e2k">
-            <objects>
-                <viewController id="IIZ-kv-b5U" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aom-eH-Bjq"/>
-                        <viewControllerLayoutGuide type="bottom" id="TP0-gH-o6c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="a0V-4t-iJh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pis-su-Jdv">
-                                <frame key="frameInset" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YiE-Vj-Zu3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1348.125" y="194.36619718309859"/>
-        </scene>
         <!--Login Screen View Controller-->
         <scene sceneID="lKy-Lp-4Eo">
             <objects>
@@ -283,7 +354,7 @@
                         <viewControllerLayoutGuide type="bottom" id="z9G-87-iVD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rWO-0j-f9C">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="JpL-hN-dZe">
@@ -306,7 +377,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="flT-WT-eWW">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3cK-HJ-tuR">
-                                                <rect key="frame" x="237" y="-3" width="71" height="49"/>
+                                                <rect key="frame" x="292" y="-3" width="71" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                 <state key="normal">
@@ -337,7 +408,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="MsZ-zJ-1cN">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FsK-wv-E92">
-                                                <rect key="frame" x="237" y="-3" width="71" height="49"/>
+                                                <rect key="frame" x="292" y="-3" width="71" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                 <state key="normal">
@@ -399,6 +470,104 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqh-kA-4kJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-933.75" y="180.63380281690141"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="kal-7p-gHJ">
+            <objects>
+                <viewController restorationIdentifier="account" storyboardIdentifier="account" title="Account" id="CeJ-5J-656" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v9r-eT-NI6"/>
+                        <viewControllerLayoutGuide type="bottom" id="QSW-Tt-fry"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="hiJ-zs-PGW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="JSl-Ut-nfu">
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Location Watcher" id="IKb-kJ-T4d">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Z7W-nC-aoP">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2QA-bX-3wm">
+                                                <rect key="frame" x="16" y="7" width="71" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="5Nz-Si-YUw">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cUI-Ox-xRc">
+                                                <rect key="frame" x="288" y="7" width="71" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="GC2-aa-tJW">
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.20000000000000001" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Location Watcher" id="RUa-lv-KKZ">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="XdQ-gY-vj1">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jlF-cV-zR2">
+                                                <rect key="frame" x="288" y="7" width="71" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNs-1C-1KA">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="Home" id="ri3-LH-U2d">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                    </tabBarItem>
+                                    <tabBarItem systemItem="more" id="1gc-EM-1Vy"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="QSW-Tt-fry" firstAttribute="top" secondItem="iNs-1C-1KA" secondAttribute="bottom" constant="3" id="6hS-cq-va5"/>
+                            <constraint firstItem="JSl-Ut-nfu" firstAttribute="leading" secondItem="hiJ-zs-PGW" secondAttribute="leading" id="GPF-bY-yVQ"/>
+                            <constraint firstItem="GC2-aa-tJW" firstAttribute="top" secondItem="hiJ-zs-PGW" secondAttribute="topMargin" constant="10" id="QCy-tQ-nID"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iNs-1C-1KA" secondAttribute="trailing" constant="-16" id="SqW-be-AlI"/>
+                            <constraint firstItem="JSl-Ut-nfu" firstAttribute="top" secondItem="hiJ-zs-PGW" secondAttribute="top" id="YV8-UN-4GY"/>
+                            <constraint firstItem="JSl-Ut-nfu" firstAttribute="leading" secondItem="GC2-aa-tJW" secondAttribute="leading" id="cBl-TM-7dQ"/>
+                            <constraint firstItem="JSl-Ut-nfu" firstAttribute="trailing" secondItem="GC2-aa-tJW" secondAttribute="trailing" id="g0a-vx-Aqg"/>
+                            <constraint firstItem="JSl-Ut-nfu" firstAttribute="trailing" secondItem="iNs-1C-1KA" secondAttribute="trailing" id="jIE-2X-8b7"/>
+                            <constraint firstItem="iNs-1C-1KA" firstAttribute="leading" secondItem="GC2-aa-tJW" secondAttribute="leading" id="wrR-SR-mSN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addCheckPoint" destination="jlF-cV-zR2" id="ZaJ-Jo-JxB"/>
+                        <outlet property="tabularBar" destination="iNs-1C-1KA" id="m6n-dl-uhI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aed-4V-Yc4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2196" y="194"/>
         </scene>
     </scenes>
     <resources>
